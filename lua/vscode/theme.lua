@@ -638,7 +638,7 @@ theme.set_highlights = function(opts)
     hl(0, 'IlluminatedWordWrite', { bg = isDark and c.vscPopupHighlightGray or c.vscPopupHighlightLightBlue })
 
     -- mini.statusline
-    hl(0, 'MiniStatuslineModeNormal', { bg = c.vscLeftDark, fg = c.vscFront })
+    hl(0, 'MiniStatuslineModeNormal', { bg = c.vscViolet, fg = 'NONE' })
     hl(0, 'MiniStatuslineModeInsert', { bg = c.vscGreen, fg = 'NONE' })
     hl(0, 'MiniStatuslineModeVisual', { bg = c.vscBlue, fg = 'NONE' })
     hl(0, 'MiniStatuslineModeReplace', { bg = c.vscLeftDark, fg = c.vscFront })
